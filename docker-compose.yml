@@ -1,0 +1,9 @@
+version: '2'
+services:
+  assetupload:
+    build:
+      context: .
+    env_file:
+        - ./.env
+    expose:
+        - '4012'
